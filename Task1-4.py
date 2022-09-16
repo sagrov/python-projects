@@ -8,20 +8,19 @@ args = parser.parse_args()
 
 
 def knapsack(W, w, n):
-    N = len(w)
-    m = {}
+    knapsack_capacity = {}
     for c in range(W+1):
-        m[(0, c)] = 0
+        knapsack_capacity[(0, c)] = 0
 
     for i in range (1, n+1):
         for c in range(W+1):
             if w[i-1] <= c:
-                m[(i, c)] = max(m[(i-1, c)], w[i-1] + m[(i-1, c-w[i-1])])
+                knapsack_capacity[(i, c)] = max(knapsack_capacity[(i-1, c)], w[i-1] + knapsack_capacity[(i-1, c-w[i-1])])
             else:
-                m[(i, c)] = m[(i-1, c)]
+                knapsack_capacity[(i, c)] = knapsack_capacity[(i-1, c)]
 
-    print(m[(N, W)])
-    return m[(N, W)]
+    print(knapsack_capacity[(n, W)])
+    return knapsack_capacity[(n, W)]
 
 
 knapsack(args.W, args.w, args.n)
