@@ -19,8 +19,7 @@ def knapsack(W, w, n):
             else:
                 knapsack_capacity[(i, c)] = knapsack_capacity[(i-1, c)]
 
-    print(knapsack_capacity[(n, W)])
     return knapsack_capacity[(n, W)]
 
 
-knapsack(args.W, args.w, args.n)
+print(knapsack(args.W, args.w, args.n))
