@@ -14,6 +14,8 @@ def nums_operation(first, operation, second):
         print(eval(f'{first} {operation} {second}'))
     except (ZeroDivisionError):
         print("Can't divide by zero")
+    except(EOFError, IndexError, SyntaxError, TypeError, KeyError, NameError, KeyboardInterrupt):
+        print("Invalid syntax")
 
 
 nums_operation(args.firstnumber, args.operation, args.secondnumber)
