@@ -10,7 +10,7 @@ args = parser.parse_args()
 
 def nums_operation(first, operation, second):
     try:
-        # f' - converts into a line; eval - evaluates a passed string as an expression
+        # f' - converts into a line; eval - evaluates a passed string as an expressionn
         print(eval(f'{first} {operation} {second}'))
     except (ZeroDivisionError):
         print("Can't divide by zero")
