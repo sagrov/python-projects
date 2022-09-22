@@ -1,10 +1,10 @@
 import argparse
 
 # importing arguments
-parser = argparse.ArgumentParser()
-parser.add_argument("firstnumber", type=str)
+parser = argparse.ArgumentParser(description="Type in some integers and operation")
+parser.add_argument("firstnumber", type=int)
 parser.add_argument("operation", type=str)
-parser.add_argument("secondnumber", type=str)
+parser.add_argument("secondnumber", type=int)
 args = parser.parse_args()
 
 
