@@ -96,7 +96,7 @@ class Order:
 Potato = Product('Potato', 2, 'Just a potato', 23, 45, 3)
 Santa = Product('Santa', 66, 'Ask him to bring a present to you', 5, 6, 3)
 Book = Product('Bread', 10, 'Read it and you\'ll become the best pizza-eater ', 5, 87, 35)
-Solo = Customer('Alexey', 'Berezin', '+380637894512')
+Solo = Customer('Alexey', 'Berezin', '322')
 order = Order(Solo, first=Potato, second=Santa, third=Book)
 print(order.product_data(), order.customer_data)
 print('Total price:', order.get_total_price)
