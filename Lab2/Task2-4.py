@@ -6,13 +6,13 @@ class Text:
         try:
             self._file = file
         except(EOFError, IOError, FileExistsError, FileNotFoundError):
-            exit(1)
+            raise Exception("The file does not exist")
 
     def characters_counting(self):
         try:
             text = open(self._file, 'r')
         except(EOFError, IOError, FileExistsError, FileNotFoundError):
-            exit(1)
+            raise Exception("The file can't be opened")
         count = sum(len(line) for line in text)
         text.close()
         return count
@@ -27,7 +27,7 @@ class Text:
         try:
             text = open(self._file, 'r')
         except(EOFError, IOError, FileExistsError, FileNotFoundError):
-            exit(1)
+            raise Exception("The file can't be opened")
         help_list = list(line.replace('!?', '.').replace('?!', '.').replace('...', '.').replace('?\n', '?').replace('.\n', '.') for line in text)
         count = sum(len(list(filter(lambda x: x != '', re.split(r'[.!?]', line)))) for line in help_list)
         text.close()
