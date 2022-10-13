@@ -41,4 +41,4 @@ try:
     text = Text('Task_2.txt')
     print(text)
 except UnboundLocalError:
-    exit()
+    raise Exception("The file does not exist")
