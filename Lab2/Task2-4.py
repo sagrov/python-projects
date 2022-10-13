@@ -6,14 +6,13 @@ class Text:
         try:
             self._file = file
         except(EOFError, IOError, FileExistsError, FileNotFoundError):
-            print('File error')
             exit(1)
 
     def characters_counting(self):
         try:
             text = open(self._file, 'r')
         except(EOFError, IOError, FileExistsError, FileNotFoundError):
-            print('File error')
+            exit(1)
         count = sum(len(line) for line in text)
         text.close()
         return count
@@ -28,7 +27,7 @@ class Text:
         try:
             text = open(self._file, 'r')
         except(EOFError, IOError, FileExistsError, FileNotFoundError):
-            print('File error')
+            exit(1)
         help_list = list(line.replace('!?', '.').replace('?!', '.').replace('...', '.').replace('?\n', '?').replace('.\n', '.') for line in text)
         count = sum(len(list(filter(lambda x: x != '', re.split(r'[.!?]', line)))) for line in help_list)
         text.close()
@@ -39,7 +38,7 @@ class Text:
 
 
 try:
-    text = Text('Task_2.txt')
+    text = Text('Task_22.txt')
     print(text)
 except UnboundLocalError:
     exit()
