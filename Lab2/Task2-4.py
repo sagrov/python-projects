@@ -38,7 +38,7 @@ class Text:
 
 
 try:
-    text = Text('Task_22.txt')
+    text = Text('Task_2.txt')
     print(text)
 except UnboundLocalError:
     exit()
