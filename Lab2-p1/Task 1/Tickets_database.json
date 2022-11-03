@@ -1,0 +1,12 @@
+{
+    "Data": {
+        "b8d8ae76-5b54-11ed-a22a-5006049bd637": {
+            "event": "Test",
+            "place": "Ukraine",
+            "time": "2.12.2022 14:30",
+            "ticket_type": "standard",
+            "price": 49,
+            "purchase_date": "2022-11-03 10:51:35.498200"
+        }
+    }
+}

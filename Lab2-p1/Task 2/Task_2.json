@@ -1,0 +1,91 @@
+{
+  "Pizza": [
+    {
+      "name": "Pepperoni",
+      "ingredients": [
+        "pepperoni",
+        "cured pork",
+        "beef",
+        "chili pepper"
+      ],
+      "weight": 500,
+      "price": 15,
+      "day": "Monday"
+    },
+    {
+      "name": "Cheese pizza",
+      "ingredients": [
+        "mozarella",
+        "oregano leaves",
+        "basil"
+      ],
+      "weight": 480,
+      "price": 12,
+      "day": "Tuesday"
+    },
+    {
+      "name": "Meat pizza",
+      "ingredients": [
+        "pepperoni",
+        "sliced bacon",
+        "parmesan cheese",
+        "red pepper flakes"
+      ],
+      "weight": 460,
+      "price": 12,
+      "day": "Wednesday"
+    },
+    {
+      "name": "BBQ Chicken",
+      "ingredients": [
+        "BBQ sauce",
+        "chicken",
+        "cheese",
+        "red onion"
+      ],
+      "weight": 470,
+      "price": 15,
+      "day": "Thursday"
+    },
+    {
+      "name": "Hawaiian Pizza",
+      "ingredients": [
+        "eggs",
+        "mozzarella",
+        "pancetta",
+        "parmesan"
+      ],
+      "weight": 400,
+      "price": 15,
+      "day": "Friday"
+    },
+    {
+      "name": "Buffalo Pizza",
+      "ingredients": [
+        "tomatoes",
+        "mozzarella",
+        "smoked chicken fillet",
+        "red onion",
+        "eggs",
+        "cream"
+      ],
+      "weight": 540,
+      "price": 20,
+      "day": "Saturday"
+    },
+    {
+      "name": "Supreme Pizza",
+      "ingredients": [
+        "tomatoes",
+        "mozzarella",
+        "pancetta",
+        "basil",
+        "dried onions",
+        "mushrooms"
+      ],
+      "weight": 490,
+      "price": 12,
+      "day": "Sunday"
+    }
+  ]
+}

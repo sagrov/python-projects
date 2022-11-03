@@ -1,0 +1,36 @@
+{
+    "Events": [
+        {
+            "name": "BTS",
+            "place": "Korea",
+            "time": "12:00",
+            "date": "28.1.2022",
+            "price": 19,
+            "tickets": 399
+        },
+        {
+            "name": "Python Course",
+            "place": "Online",
+            "date": "19.12.2022",
+            "time": "13:00",
+            "price": 99,
+            "tickets": 999
+        },
+        {
+            "name": "Test",
+            "place": "Ukraine",
+            "date": "2.12.2022",
+            "time": "14:30",
+            "price": 49,
+            "tickets": 596
+        },
+        {
+            "name": "Cosplay convention",
+            "place": "Kyiv",
+            "date": "25.11.2022",
+            "time": "16:59",
+            "price": 59,
+            "tickets": 600
+        }
+    ]
+}

@@ -1,0 +1,52 @@
+{
+    "Data": {
+        "dc5f7df6-5523-11ed-8d15-5006049bd637": {
+            "name": "Pepperoni",
+            "weight": 470,
+            "price": 305,
+            "purchase_date": "2022-10-26 14:46:51.865538"
+        },
+        "06f6ab4a-5524-11ed-818f-5006049bd637": {
+            "name": "Pepperoni",
+            "weight": 420,
+            "price": 265,
+            "purchase_date": "2022-10-26 14:47:56.802877"
+        },
+        "1cbfc8e2-5555-11ed-b3f3-5006049bd637": {
+            "name": "Pepperoni",
+            "weight": 420,
+            "price": 265,
+            "purchase_date": "2022-10-26 20:39:18.108952"
+        },
+        "261aad09-5555-11ed-80ef-5006049bd637": {
+            "name": "Pepperoni",
+            "weight": 470,
+            "price": 305,
+            "purchase_date": "2022-10-26 20:39:37.695063"
+        },
+        "c071a5f4-55ae-11ed-bd66-5006049bd637": {
+            "name": "BBQ Chicken",
+            "weight": 520,
+            "price": 50,
+            "purchase_date": "2022-10-27 07:21:01.847569"
+        },
+        "14573656-5b52-11ed-bd51-5006049bd637": {
+            "name": "BBQ Chicken",
+            "weight": 520,
+            "price": 40,
+            "purchase_date": "2022-11-03 10:32:56.875780"
+        },
+        "4b9d2df5-5b52-11ed-9e33-5006049bd637": {
+            "name": "BBQ Chicken",
+            "weight": 470,
+            "price": 15,
+            "purchase_date": "2022-11-03 10:34:15.459072"
+        },
+        "3e820e77-5b58-11ed-a587-5006049bd637": {
+            "name": "BBQ Chicken",
+            "weight": 470,
+            "price": 15,
+            "purchase_date": "2022-11-03 11:16:49.875816"
+        }
+    }
+}
